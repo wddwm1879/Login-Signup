@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-40deg, cyan , lightblue,blue);
+}
+.main
+{
+    width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main h3
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: arial;
+    text-align: center;
+}
+.login p
+{
+    font-family: arial;
+    margin-top: 15px;
+    margin-left: 60px;
+    
+    
+}
+.textbox
+{
+    width: 70%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.birthday
+{
+    width: 90px;
+    height: 35px;
+    margin-left: 5px;
+    font-weight: bold;
+    
+}
+#birthday
+{
+    margin-left: 50px;
+}
+.checkbox
+{
+    font-size: 10px;
+    font-family: arial;
+    text-align: center;
+}
+.checkbox a
+{
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.checkbox a:hover
+{
+    text-decoration: underline;
+}
+#button
+{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: cyan;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    margin-left: 60px
+    
+}

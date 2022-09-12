@@ -1,0 +1,79 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    opacity: 100%;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-40deg, cyan , lightblue,blue);
+}
+.main
+{
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.main #login
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.main .textbox
+{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.main #button
+{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 25px;
+    background: cyan;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main #forgot
+{
+    margin-right: 160px;
+    margin-top: 20px;
+    position: relative;
+    text-decoration: none;
+    color: blue;
+}
+.main #forgot:hover
+{
+    text-decoration: underline;
+}
+.main #create
+{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: lightblue;
+    border: 1px black solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main .login-error
+{
+    border: 2px solid red;
+}
